@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+  char str1[50], str2[50];
+  int c, b, d;
+    gets(str1);
+    gets(str1);
+    c = strcmp(str1, str2);
+    if(c!=0) printf("no");
+    else printf("yes");
+  return 0;
+}
